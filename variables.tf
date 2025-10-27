@@ -31,5 +31,5 @@ variable "key_pair_name" {
 variable "instance_name" {
   description = "Nome para a tag 'Name' da instância EC2."
   type        = string
-  default     = "Workflow-teste"
+  default     = "Workflow-Junior"
 }
