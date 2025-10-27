@@ -1,6 +1,6 @@
 # Cria um Security Group simples para permitir SSH
 resource "aws_security_group" "allow_ssh" {
-  name        = "allow-ssh-simple-test"
+  name        = "allow-teste"
   description = "Permite acesso SSH (porta 22) de qualquer lugar"
   # Usa a VPC Padrão se 'vpc_id' não for especificado
 
