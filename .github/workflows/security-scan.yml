@@ -1,0 +1,9 @@
+name: Run Checkov Security Scan (via Template)
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  security:
+    uses: kaykeperes-clouddog/template_codebuild/.github/workflows/template_codebuild.yml@main
