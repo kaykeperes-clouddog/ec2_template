@@ -1,7 +1,7 @@
 # variables.tf
 
 variable "aws_region" {
-  description = "Região AWS onde a instância será criada."
+  description = "Região AWS"
   type        = string
   default     = "us-east-1" # Mude para sua região preferida
 }
