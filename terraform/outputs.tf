@@ -1,7 +1,7 @@
 # outputs.tf
 
 output "instance_public_ip" {
-  description = "Endereço IP público da instância EC2."
+  description = "Endereço IP público da instância EC2 all right?"
   value       = aws_instance.test_instance.public_ip
 }
 
