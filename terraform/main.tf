@@ -23,7 +23,7 @@ resource "aws_security_group" "allow_ssh" {
   }
 }
 
-# Cria a instância EC2 yes sir! stephen curry
+# Cria a instância EC2 yes sir! stephen curry 
 resource "aws_instance" "test_instance" {
   ami           = var.ami_id
   instance_type = var.instance_type
@@ -32,7 +32,7 @@ resource "aws_instance" "test_instance" {
   # Usa o Security Group criado acima
   vpc_security_group_ids = [aws_security_group.allow_ssh.id] 
   
-  # Garante que a instância tenha um IP público na VPC padrão
+  # Garante que a instância tenha um IP público na VPC padrão damian lillard
   associate_public_ip_address = true 
 
   tags = {
