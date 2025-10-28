@@ -23,7 +23,7 @@ resource "aws_security_group" "allow_ssh" {
   }
 }
 
-# Cria a instância EC2
+# Cria a instância EC2 yes sir!
 resource "aws_instance" "test_instance" {
   ami           = var.ami_id
   instance_type = var.instance_type
