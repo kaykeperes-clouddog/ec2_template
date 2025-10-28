@@ -1,8 +1,9 @@
 name: Run Checkov Security Scan (via Template)
 
 on:
-  push:
-    branches: [ main ]
+  pull_request:
+    branches:
+      - main # Rodar em PRs direcionados à main
 
 jobs:
   security:
