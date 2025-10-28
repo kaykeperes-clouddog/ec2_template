@@ -23,11 +23,11 @@ resource "aws_security_group" "allow_ssh" {
   }
 }
 
-# Cria a instância EC2 yes sir!
+# Cria a instância EC2 yes sir! stephen curry
 resource "aws_instance" "test_instance" {
   ami           = var.ami_id
   instance_type = var.instance_type
-  key_name      = var.key_pair_name # Usa o nome do Key Pair existente lebron james
+  key_name      = var.key_pair_name # Usa o nome do Key Pair existente lebron jamesJ
   
   # Usa o Security Group criado acima
   vpc_security_group_ids = [aws_security_group.allow_ssh.id] 
