@@ -2,7 +2,7 @@
 resource "aws_security_group" "allow_ssh" {
   name        = "allow-teste"
   description = "Permite acesso SSH (porta 22) de qualquer lugar"
-  # Usa a VPC Padrão se 'vpc_id' não for especificado agora vai pelo amor
+  # Usa a VPC Padrão se 'vpc_id' não for especificado agora vai pelo amor aaaaaaaa
 
   ingress {
     from_port   = 22
