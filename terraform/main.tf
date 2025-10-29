@@ -1,4 +1,4 @@
-# Cria um Security Group simples para permitir SSH ja morant seth
+# Cria um Security Group simples para permitir SSH ja morant seth curry
 resource "aws_security_group" "allow_ssh" {
   name        = "allow-teste"
   description = "Permite acesso SSH (porta 22) de qualquer lugar"
